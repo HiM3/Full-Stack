@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
+#box1 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between; /*width*/
+  align-items: center; /*height*/
+  /*margin: 20px 30px;
+  padding: 4px;*/
+}
+.box2 {
+  position: absolute;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+ /* margin: 20px 30px; /*for outer space in object*/
+ /* padding: 4px 6px; /*for inside space in object*/
+
+}
+.box:hover {
+  transition:none;
+  transform: rotate(360deg);
+}
+#main{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+  background-size: cover;
+  background-position: center;
+} 
+#car1{
+  width: 100px;
+  height: 120px;
+  background-color: blue;
+}
+#car2{
+  /*position: relative;
+  left: 100px;
+  top: 4%;*/
+  width: 110px;
+  height: 90px;
+  background-color: green;
+}
+#car3{
+  width: 130px;
+  height: 110px;
+  background-color: aqua;
+}/*
+#car2:hover{
+  transform: scale(1.5);
+}
+#car1:hover{
+  transform: scale(1.5);
+}
+#car3:hover{
+  transform: scale(1.5);
+}*/

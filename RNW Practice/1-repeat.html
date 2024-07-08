@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-repeat</title>
+</head>
+<style>
+    .heading{
+        margin-left: 160px;
+    }
+    .sform{
+        max-width: 500px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+</style>
+<body bgcolor="orange">
+    <div style="background-color: white; border-radius: 25px; margin: 100px;height: 600px; width: 600px;"><br>
+        <form action="" class="sform">
+            <h1 class="heading">Student Form</h1>
+            <div class="container">
+                <div>
+                <label for="name">firstname</label>
+                <input type="text" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="">lastname</label>
+                    <input type="text" placeholder="lastname">
+                </div>
+            </div> <br>
+            <div class="container">
+                <div>
+                <label for="name">Gender</label><br>
+                <select>
+                    <option value="Gender">Select Gender</option>
+                    <option value="Gender">Male</option>
+                    <option value="Gender">Female</option>
+                    <option value="Gender">others</option>
+                </select>
+                </div>
+                <div style="margin-right: 28px;">
+                    <label for="">E-mail:</label><br>
+                    <input type="email" placeholder="E-mail">
+                </div>
+            </div><br>
+            <div class="container">
+                <div>
+                <label for="name">List of class</label><br>
+                <select>
+                    <option value="lof">List of class</option>
+                    <option value="lof">1st class</option>
+                    <option value="lof">2nd class</option>
+                    <option value="lof">3rd class</option>
+                    <option value="lof">4th class</option>
+                    <option value="lof">5th class</option>
+                    <option value="lof">6th class</option>
+                    <option value="lof">7th class</option>
+                    <option value="lof">8th class</option>
+                    <option value="lof">9th class</option>
+                    <option value="lof">10th class</option>
+                    <option value="lof">11th class</option>
+                    <option value="lof">12th class</option>
+                </select>
+                </div>
+                <div style="margin-right: 28px;">
+                    <label for="">Student ID:</label><br>
+                    <input type="tel" placeholder="Enter your 6 digit ID">
+                </div>
+            </div>
+            <input type="submit" value="Submit" style="background-color: green; color: white; text-align: center; margin-top: 20%; font-size: medium; margin-left: 50%;"/>
+            <button style="background-color: green; color: white;">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
