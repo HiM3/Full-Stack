@@ -40,16 +40,3 @@ nav li {
 .amenity-descriptions {
  font-family: 'Raleway', sans-serif;   
   }
- 
-
-/* Code at lines 32-33 was another possible solution for iPhone error, but one that didn't work for me.
-.carousel-inner>.item {
-          width: 100%;
-} */
-
-
-/* Code below can be used to center text for amenity descriptions, but I don't think it makes them actually look better.
-
-.amenity-descriptions {
-  margin: 0em 1em;
-} */
