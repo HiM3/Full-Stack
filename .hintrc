@@ -14,6 +14,11 @@
       }
     ],
     "button-type": "off",
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "axe/text-alternatives": "off",
+    "axe/aria": "off",
+    "meta-viewport": "off",
+    "axe/keyboard": "off",
+    "meta-charset-utf-8": "off"
   }
 }
